@@ -1,0 +1,18 @@
+# ignore node module directory
+node_modules
+
+# ignore build directories
+.output
+.vercel
+/.svelte-kit
+/build
+
+# ignore environment files
+.env
+.env.*
+!.env.example
+!.env.test
+
+# ignore temporary Vite files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
